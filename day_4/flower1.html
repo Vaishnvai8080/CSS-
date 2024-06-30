@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbaritems {
+            background-color: green;
+            display: flex;
+            align-items: center;
+            /* border: 2px solid red; */
+            justify-content: space-around;
+            height: 70px;
+            position: fixed;
+            width: 100vw;
+            top: 0;
+        }
+
+        .logo {
+            /* background-color: blue; */
+            width: 350px;
+            display: flex;
+            align-items: center;
+            /* justify-content: ; */
+            gap: 60px;
+            /* border: 2px solid yellow; */
+
+        }
+
+        .logo img {
+            height: 60px;
+            width: 60px;
+            border-radius: 70px;
+
+        }
+
+        .christmastext {
+            margin-top: 80px;
+        }
+
+        .christmastext img {
+            position: absolute;
+            top: 60px;
+            z-index: -1;
+            height: 200px;
+            width: 100vw;
+        }
+
+        .christmastext p {
+            color: white;
+            font-weight: 800;
+            font-size: 20px;
+        }
+
+        .textdata {
+            margin-top: 80px;
+        }
+
+        .text {
+            text-align: justify;
+        }
+
+        .imageschristmas {
+            position: relative;
+            top: 70px;
+            z-index: -1;
+            /* background-color: blue; */
+            /* padding: 40px; */
+
+        }
+
+        .imageschristmas div img {
+            height: 170px;
+            width: 170px;
+            border-radius: 50px;
+        }
+        .inside{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+        .imagesdata{
+            display: flex;
+            gap: 30px;
+        }
+        .marqueeText {
+            font-size: 60px;
+            color: #88201e;
+            /* display: flex; */
+            /* display: inline-flex; */
+            /* flex-direction: row; */
+            /* align-items: center;
+            justify-content:center ;
+            background-color: blue;
+            height: 170px; */
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbaritems">
+        <div class="logo">
+            <img src="https://img.freepik.com/free-vector/merry-christmas-wallpaper-design_79603-2129.jpg" alt="">
+            <p><i>Merry Christmas</i></p>
+        </div>
+        <div>Home</div>
+        <div>About</div>
+        <div>Contact</div>
+        <div>Gallery</div>
+        <div>Info</div>
+    </div>
+
+
+    <!-- below navbar -->
+    <div class="christmastext">
+        <p>Christmas is celebrated on December 25 and is both a sacred religious holiday and a worldwide cultural and
+            commercial phenomenon. For two millennia, people around the world have been observing it with traditions and
+            practices that are both religious and secular in nature. Christians celebrate Christmas Day as the
+            anniversary of the birth of Jesus of Nazareth, a spiritual leader whose teachings form the basis of their
+            religion. Popular customs include exchanging gifts, decorating Christmas trees, attending church, sharing
+            meals with family and friends and, of course, waiting for Santa Claus to arrive. December 25—Christmas
+            Day—has been a federal holiday in the United States since 1870.</p>
+        <img src="https://assets.editorial.aetnd.com/uploads/2009/10/christmas-gettyimages-184652817.jpg?width=1920&height=960&crop=1920%3A960%2Csmart&quality=75&auto=webp"
+            alt="">
+    </div>
+
+    <!-- marquee tag before textdata -->
+
+    <marquee behavior="" direction="" class="imageschristmas">
+        <div class="inside">
+            <div class="marqueeText">Merry</div>
+
+            <div class="imagesdata">
+                <img src="https://wallpapers.com/images/hd/christmas-gift-and-card-x2oqzfjyblmxbf9y.webp" alt="">
+                <img src="https://th.bing.com/th/id/R.1402e94ac8ef4c27fe929caf5520524f?rik=cnLxLBsOYkRD9g&riu=http%3a%2f%2fwww.thewowdecor.com%2fwp-content%2fuploads%2f2017%2f10%2fChristmas-Living-Room-Decor-Ideas-48.jpg&ehk=maa7j7y1DJNC%2bQyxqFXbK57EO9YMwgq%2fCcbIYrSzc7g%3d&risl=&pid=ImgRaw&r=0"
+                    alt="">
+                <img src="https://th.bing.com/th/id/R.f0277f4463921d12ddfd1edacd4b30fc?rik=eZ0nepzftp5bPA&riu=http%3a%2f%2fwww.emme-magazine.com%2fwp-content%2fuploads%2f2013%2f12%2fcc.jpg&ehk=DaxGsNJP77XKaGpGhAdm%2f7MPKUATE9qu6zqzR1B26fM%3d&risl=&pid=ImgRaw&r=0"
+                    alt="">
+                <img src="https://thumbs.dreamstime.com/b/red-bauble-christmas-tree-under-falling-snow-merry-star-design-77420443.jpg"
+                    alt="">
+                <img src="https://wallpapers.com/images/high/cute-snow-jpwe654egkdm84tz.webp" alt="">
+            </div>
+
+            <div class="marqueeText">Christmas</div>
+        </div>
+       
+    </marquee>
+    <div class="textdata">
+        <div class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda voluptate, autem veritatis
+            placeat doloribus perspiciatis expedita at beatae magni voluptatum exercitationem officiis quam dignissimos
+            quos incidunt deleniti, nesciunt, pariatur praesentium est laborum labore atque iusto sint? Neque fugit
+            temporibus maxime, enim voluptatibus ut aliquam ullam quasi quas hic accusantium illum beatae natus. Eaque
+            quia earum ut commodi, sequi magnam, cumque voluptatibus asperiores fuga suscipit voluptatem dolorum
+            consequuntur blanditiis quod temporibus quos officiis ea ad corporis a nihil velit? Quaerat, at. Dolore,
+            iure! Necessitatibus perferendis ipsum ipsam nihil eos, at ipsa mollitia consequuntur error dolore quas
+            amet, cupiditate tempore excepturi soluta similique? Labore dignissimos fugiat libero sapiente sunt facilis
+            odio impedit? Vel placeat error inventore! Ipsam vitae fugiat unde quae expedita blanditiis deserunt.
+            Impedit possimus culpa cumque provident fugiat inventore obcaecati quasi labore! Obcaecati maxime deserunt
+            ipsum libero expedita ipsam laudantium iusto quidem praesentium consequuntur voluptatibus facere non nulla,
+            reprehenderit, aliquid velit dignissimos quia officia atque. Saepe, fugit dolorem expedita labore ratione
+            repudiandae quis non libero. Eveniet beatae esse suscipit repellat reprehenderit vero quia nesciunt
+            molestiae neque quidem sapiente ab inventore veritatis, alias, exercitationem consequuntur dicta minima
+            autem ex libero fugiat. Dolorum cumque ab nisi non nihil est aspernatur ad a odit amet quod maxime fuga
+            expedita, doloremque alias id magni itaque voluptatem. Sequi vero minima vitae magnam eveniet quo suscipit
+            doloremque amet, ipsam itaque aliquam atque fugit beatae, nemo numquam autem necessitatibus libero quia quae
+            ex voluptatibus doloribus, nam quasi quidem. Commodi cum praesentium distinctio voluptatibus id sapiente,
+            maiores dignissimos expedita accusamus dolor hic facere labore quae vel fuga enim corporis dicta, dolorum
+            sed minima quaerat blanditiis eveniet. Odio, optio necessitatibus quidem voluptatibus dicta debitis unde ut
+            repellendus pariatur, veniam porro laborum reprehenderit nobis blanditiis deserunt sint recusandae
+            distinctio deleniti laudantium fugiat fuga. Similique earum ipsam, voluptatem reprehenderit ad quasi.</div>
+        <br>
+        <div class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda voluptate, autem veritatis
+            placeat doloribus perspiciatis expedita at beatae magni voluptatum exercitationem officiis quam dignissimos
+            quos incidunt deleniti, nesciunt, pariatur praesentium est laborum labore atque iusto sint? Neque fugit
+            temporibus maxime, enim voluptatibus ut aliquam ullam quasi quas hic accusantium illum beatae natus. Eaque
+            quia earum ut commodi, sequi magnam, cumque voluptatibus asperiores fuga suscipit voluptatem dolorum
+            consequuntur blanditiis quod temporibus quos officiis ea ad corporis a nihil velit? Quaerat, at. Dolore,
+            iure! Necessitatibus perferendis ipsum ipsam nihil eos, at ipsa mollitia consequuntur error dolore quas
+            amet, cupiditate tempore excepturi soluta similique? Labore dignissimos fugiat libero sapiente sunt facilis
+            odio impedit? Vel placeat error inventore! Ipsam vitae fugiat unde quae expedita blanditiis deserunt.
+            Impedit possimus culpa cumque provident fugiat inventore obcaecati quasi labore! Obcaecati maxime deserunt
+            ipsum libero expedita ipsam laudantium iusto quidem praesentium consequuntur voluptatibus facere non nulla,
+            reprehenderit, aliquid velit dignissimos quia officia atque. Saepe, fugit dolorem expedita labore ratione
+            repudiandae quis non libero. Eveniet beatae esse suscipit repellat reprehenderit vero quia nesciunt
+            molestiae neque quidem sapiente ab inventore veritatis, alias, exercitationem consequuntur dicta minima
+            autem ex libero fugiat. Dolorum cumque ab nisi non nihil est aspernatur ad a odit amet quod maxime fuga
+            expedita, doloremque alias id magni itaque voluptatem. Sequi vero minima vitae magnam eveniet quo suscipit
+            doloremque amet, ipsam itaque aliquam atque fugit beatae, nemo numquam autem necessitatibus libero quia quae
+            ex voluptatibus doloribus, nam quasi quidem. Commodi cum praesentium distinctio voluptatibus id sapiente,
+            maiores dignissimos expedita accusamus dolor hic facere labore quae vel fuga enim corporis dicta, dolorum
+            sed minima quaerat blanditiis eveniet. Odio, optio necessitatibus quidem voluptatibus dicta debitis unde ut
+            repellendus pariatur, veniam porro laborum reprehenderit nobis blanditiis deserunt sint recusandae
+            distinctio deleniti laudantium fugiat fuga. Similique earum ipsam, voluptatem reprehenderit ad quasi.</div>
+    </div>
+</body>
+
+</html>

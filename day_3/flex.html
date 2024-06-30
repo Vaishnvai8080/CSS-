@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div{
+            width: 400px;
+            height: 500px;
+            background-color: aqua;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        } */
+
+        /* .main{
+            display: flex;
+            flex-direction: row;
+        } */
+        /* div{
+            display: inline;
+        } */
+.main1 div{
+    background-color: yellowgreen;
+}
+        .main1{
+            border: 1px solid red;
+            display: flex;
+            flex-direction: row;
+            height: 300px;
+            /* width: 100px; */
+            /* align-items:flex-start;   */
+             /*cross axis*/
+            justify-content: space-evenly;
+             /* main axis */
+             gap: 20px;
+
+        }
+        .main2{
+            border: 1px solid green;
+            display: flex;
+            flex-direction: column;
+            height: 300px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Display Flex in CSS</h1>
+    <!-- <div>This is div</div> -->
+    <div class="main1">
+        <div class="div1">This is div 1</div>
+        <div class="div2">This is div 2</div>
+        <div class="div3">This is div 3</div>
+
+    </div>
+<br><br><br>
+    <div class="main2">
+        <span class="div1">This is span 1</span>
+        <span class="div2">This is span 2</span>
+        <span class="div3">This is span 3</span>
+
+    </div>
+</body>
+</html>

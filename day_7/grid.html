@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-areas: 
+            'navbar navbar navbar navbar'
+            'section section aside aside'
+            'footer footer footer footer'
+            ;
+        }
+
+        .item{
+            background-color: yellow;
+            border: 3px solid black;
+            padding: 12px 23px;
+        }
+        #navbar{
+            grid-area: navbar;
+        }
+
+        #section{
+            grid-area: section;
+
+        }
+
+        #aside{
+            grid-area: aside;
+
+        }
+
+        .footer{
+            grid-area: footer;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="navbar" class="item">
+            Home About Contact
+        </div>
+
+        <div id="section" class="item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, corporis? Saepe assumenda excepturi
+            molestiae? Ut impedit sed assumenda, officiis quas tenetur. Illum a illo omnis soluta consequuntur id
+            repudiandae rem.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, corporis? Saepe assumenda excepturi
+            molestiae? Ut impedit sed assumenda, officiis quas tenetur. Illum a illo omnis soluta consequuntur id
+            repudiandae rem. 
+        </div>
+
+
+    <div id="aside" class="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sint consequuntur ut mollitia quibusdam eius architecto quasi modi, doloribus iste blanditiis perferendis officia ipsam nisi molestiae, doloremque reiciendis repellendus maiores quae, explicabo perspiciatis. Recusandae sit qui, eum nulla molestias amet, vero ipsam ex ipsum eos, nihil modi neque unde fugiat tenetur eius. Ex mollitia minus provident corrupti, atque praesentium? Aliquid sed dolores distinctio ipsam natus necessitatibus iste excepturi corrupti molestiae, velit tenetur nostrum laudantium consectetur possimus assumenda blanditiis optio expedita nesciunt illum recusandae. Aut et magnam vitae perferendis dolorum quia culpa cumque, commodi eligendi ab dolor cum perspiciatis iste dignissimos.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, corporis? Saepe assumenda excepturi
+        molestiae? Ut impedit sed assumenda, officiis quas tenetur. Illum a illo omnis soluta consequuntur id
+        repudiandae rem.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, corporis? Saepe assumenda excepturi
+        molestiae? Ut impedit sed assumenda, officiis quas tenetur. Illum a illo omnis soluta consequuntur id
+        repudiandae rem.
+    </div>
+
+    <div class="footer item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eligendi ex dignissimos totam cupiditate perspiciatis dolorum mollitia, hic necessitatibus officia possimus, cum id similique, facere magnam laudantium facilis libero aut.
+    </div>
+
+    </div>
+</body>
+
+</html>

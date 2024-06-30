@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .container{
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
+            grid-template-areas:
+            'nav nav nav nav'
+            'sidebar main main main'
+            'sidebar section1 section2 section3'
+            'footer footer footer footer'
+            ;
+            gap: 10px;
+            text-align: center;
+            
+        }
+        nav{
+            grid-area: nav;
+            background-color: aqua;
+            padding-top: 30px;
+            border-radius: 10px;
+        }
+
+        main{
+            grid-area: main;
+            background-color: palevioletred;
+            padding-top: 30px;
+            border-radius: 10px;
+        }
+        .sidebar{
+            grid-area: sidebar;
+            background-color: skyblue;
+            padding-top: 30px;
+            border-radius: 10px;
+        }
+        .section1{
+            grid-area: section1;
+            background-color: burlywood;
+            padding-top: 30px;
+            border-radius: 10px;
+        }
+        .section2{
+            grid-area: section2;
+            background-color: greenyellow;
+            padding-top: 30px;
+            border-radius: 10px;
+        }
+        .section3{
+            grid-area: section3;
+            background-color: pink;
+            padding-top: 30px;
+            border-radius: 10px;
+        }
+        footer{
+            grid-area: footer;
+            background-color: grey;
+            padding-top: 30px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>Navbar</nav>
+        <main>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo voluptate cumque odio dolorum quasi beatae impedit quia. Quidem, modi doloremque quis suscipit odio, facilis quae saepe magnam quod reiciendis asperiores.</main>
+        <div class="sidebar">Sidebar</div>
+        <div class="section1">Section 1</div>
+        <div class="section2">Section 2</div>
+        <div class="section3">Section 3</div>
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>
